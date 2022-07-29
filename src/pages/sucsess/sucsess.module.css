@@ -1,0 +1,14 @@
+.pending {
+  background-color: yellow;
+}
+.approve {
+  background: green;
+}
+.cancel {
+  background-color: red;
+}
+.cancelbtn {
+  color: red;
+  font-weight: 800;
+  margin-left: 5px;
+}

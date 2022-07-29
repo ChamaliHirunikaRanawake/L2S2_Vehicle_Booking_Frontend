@@ -1,0 +1,45 @@
+
+.body {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  height: 100%;
+  display: inline-block;
+  overflow: auto;
+  transition: 1s;
+}
+
+.header {
+  width: "100%";
+  position: relative;
+  top: -30px;
+  padding: 2px;
+  z-index: 2;
+  border-radius: 20px 20px 0 0;
+  background: linear-gradient(90.52deg, #000000 26.89%, #c3c64c 98.03%);
+  margin-bottom: 5px;
+}
+
+.form {
+  width: 260px;
+  padding: 5px;
+  float: left;
+}
+
+.img {
+  width: 300px;
+  float: right;
+  z-index: 2;
+}
+
+.date {
+  max-width: 300px;
+  overflow: hidden;
+  max-height: 300px;
+  display: inline-block;
+  position: relative;
+  transform: translateY(-30%);
+  left: -10px;
+  padding: 5px;
+  border-radius: 0 20px 20px 0;
+}
